@@ -199,8 +199,8 @@
       $( "#slider-range" ).slider({
         range: true,
         min: 2005,
-        max: 2021,
-        values: [ 2005, 2021 ],
+        max: 2022,
+        values: [ 2005, 2022 ],
         slide: function( event, ui ) {
           $( "#year" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 
