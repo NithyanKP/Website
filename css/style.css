@@ -74,12 +74,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     color: #4c1ad6;
 }
 
-.latest-updates h3 {
+.latest-updates h5 {
   animation: blinker 2s linear infinite;
 }
 .latest-updates ul{
   height: 350px;
-  overflow-y: hidden;
+  overflow-y: clip;
   overflow-x: auto;
 }
 
@@ -88,57 +88,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   white-space: wrap;
   overflow: visible;
   border-bottom: 1px solid khaki;
-}
-.latest-updates ul li:nth-child(1) {
-  animation: type 2s steps(40, end);
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(2) {
-  opacity: 0;
-  animation: type2 2s steps(40, end);
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(3) {
-  opacity: 0;
-  animation: type3 5s steps(20, end),
-   blink .5s step-end infinite alternate;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(4) {
-  opacity: 0;
-  animation: type3 5s steps(20, end),
-   blink .5s step-end infinite alternate;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(5) {
-  opacity: 0;
-  animation: type3 5s steps(20, end),
-   blink .5s step-end infinite alternate;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(6) {
-  opacity: 0;
-  animation: type3 5s steps(20, end),
-   blink .5s step-end infinite alternate;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
-}
-
-.latest-updates ul li:nth-child(7) {
-  opacity: 0;
-  animation: type3 5s steps(20, end),
-   blink .5s step-end infinite alternate;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
 }
 
 
